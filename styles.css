@@ -11,8 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 20px;
-    padding-bottom: 50px;
+    padding: 10px 190px 50px 190px;
 }
 
 .nav-links {
@@ -39,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 35px 190px 90px 190px;
 }
 
 .hero-text {
@@ -59,6 +58,7 @@
     font-size: 18px;
     color: #e5e7eb;
     flex-direction: column;
+    font-weight: 300;
 }
 
 .hero-button {
@@ -70,7 +70,7 @@
     width: 100px;
 }
 
-.hero .image {
+.hero-image {
     width: 400px;
     height: 200px;
     background-color: gray;
@@ -107,27 +107,85 @@
 }
 
 .info-box {
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border-radius: 10px;
     border: 2px solid #3882f6;
     margin-bottom: 10px;
 }
 
 .info-text {
-    font-size: 18px;
+    font-size: 14px;
     color:#1f2937;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    width: 130px;
+    font-weight: 300;
 }
 
 .quote-container {
+    display: flex;
     background-color: #e5e7eb;
-    padding: 30px;
+    padding: 20px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: 200;
+    margin: 120px 450px 15px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 450px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 120px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 120px;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-right: 350px
+}
+
+.cta-text {
+    border-radius: 5px;
+    padding: 40px;
+    color: #e5e7eb;
     font-weight: 300;
-    
+}
+
+.cta-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.cta-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    margin: 0;
+    height: 55px;
+    width: 120px;
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    color: #e5e7eb;
 }
